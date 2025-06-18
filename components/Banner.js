@@ -15,7 +15,7 @@ const Banner = () => {
 
   return (
 
-    <section className="flex flex-col md:flex-row items-center justify-between px-6 py-30 bg-gray-100">
+    <section className="flex flex-col md:flex-row items-center justify-between px-6 py-30 bg-[rgba(218,196,219,0.2)]">
       {/* Left Section */}
       <div className="md:w-1/2 text-center md:text-left space-y-6">
         {/* Animated Heading */}

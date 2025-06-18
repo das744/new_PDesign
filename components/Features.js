@@ -88,7 +88,7 @@ const Features = () => {
         <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
           {/* Heading Animation */}
           <h2
-            className={`text-4xl font-bold text-gray-900 transition-all duration-700 ${
+            className={`text-4xl font-bold uppercase text-gray-900 transition-all duration-700 ${
               animate ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
             }`}
           >

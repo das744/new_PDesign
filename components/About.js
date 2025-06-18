@@ -146,7 +146,7 @@ const AboutSection = () => {
             animate ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'
           }`}
         >
-          <h2 className="text-3xl font-bold text-gray-900">About Us</h2>
+          <h2 className="text-4xl font-bold uppercase text-gray-900">About Us</h2>
           <p className="text-gray-600 text-lg">
             We create engaging digital experiences that bridge creativity and strategy. Let’s build something impactful together.
           </p>

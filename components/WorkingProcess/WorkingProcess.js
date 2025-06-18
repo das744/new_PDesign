@@ -94,7 +94,7 @@ const WorkingProcess = () => {
 
   return (
     <section id="feature" className="bg-white px-6 py-30 md:px-20">
-      <h1 className="text-center mb-12 text-3xl font-bold uppercase"> Our Working Process Steps</h1>
+      <h1 className="text-center mb-12 text-4xl font-bold uppercase"> Our Working Process Steps</h1>
 
       <div className="flex flex-col md:flex-row gap-8 relative">
         {/* LEFT SIDE – TITLES */}
@@ -137,7 +137,7 @@ const WorkingProcess = () => {
      
       </div>
       {/* Divider Section */}
-      <div className="relative mt-20 bg-gray-100 w-full">
+      {/* <div className="relative mt-20 bg-gray-100 w-full">
         <svg viewBox="0 0 1440 220" className="w-full h-24 md:h-32">
           <path
             fill="#fff"
@@ -150,7 +150,7 @@ const WorkingProcess = () => {
             Get Started
           </button>
         </div>
-      </div>
+      </div> */}
       {/* Divider Section ends*/} 
     </section>
   );

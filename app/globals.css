@@ -33,17 +33,17 @@
   --foreground: #171717;
   --color-btn-bg: #7236ae;
   --color-btn-hover: #1D4ED8;
-  --primary: #1f53a1;
+  --primary: #734ac0;
   --secondary: #7c0a8e;
 }
 
 .btn-primary {
   @apply text-white px-6 py-3 rounded transition;
-  background-color: var(--secondary);
+  background-color: var(--primary);
 }
 
 .btn-primary:hover {
-  background-color: var(--color-btn-hover);
+  background-color: var(--secondary);
 
 }
 
@@ -68,4 +68,20 @@ body {
 }
 html {
   scroll-behavior: smooth;
+}
+button {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #f2efef;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -2px -2px 10px #ffffff;
+}
+
+button:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
 }
