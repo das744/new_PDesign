@@ -90,7 +90,7 @@ export default function Contact() {
         }),
       });
 
-      setResponse({ message: "Message sent successfully!", type: "success" });
+      setResponse({ message: "Message sent successfully! We will contact you ASAP..", type: "success" });
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
       console.error("Firestore error:", error);
