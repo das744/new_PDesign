@@ -18,9 +18,10 @@ export default function Footer() {
           <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="#feature">Process</a></li>
+             <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+           
           </ul>
         </div>
 
@@ -28,16 +29,16 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-semibold mb-4">Services</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Mobile App Development</a></li>
-            <li><a href="#">UI/UX Design</a></li>
-            <li><a href="#">SEO Optimization</a></li>
+            <li>Web Design</li>
+            <li>Mobile App Development</li>
+            <li>UI/UX Design</li>
+            <li>SEO Optimization</li>
           </ul>
         </div>
 
         {/* Subscribe & Social */}
         <div className="md:col-span-1">
-          <h3 className="text-xl font-semibold mb-4">Subscribe</h3>
+          {/* <h3 className="text-xl font-semibold mb-4">Subscribe</h3>
           <p className="text-gray-400 text-sm mb-4">
             Get the latest updates and offers directly in your inbox.
           </p>
@@ -47,16 +48,16 @@ export default function Footer() {
               placeholder="Your Email"
               className="w-full px-4 py-2 rounded text-gray-800"
             />
-            <button className="bg-blue-600 px-4 py-2 rounded hover:bg-blue-700 transition">
+            <button className=" px-4 py-2 rounded hover:bg-blue-700 transition">
               Subscribe
             </button>
-          </form>
+          </form> */}
 
           <div className="flex items-center gap-4 text-white">
-            <a href="#" className="hover:text-blue-500"><FaFacebookF /></a>
-            <a href="#" className="hover:text-blue-400"><FaTwitter /></a>
-            <a href="#" className="hover:text-blue-600"><FaLinkedinIn /></a>
-            <a href="#" className="hover:text-pink-500"><FaInstagram /></a>
+            <a href="#" className="hover:bg-[var(--primary)] text-white"><FaFacebookF /></a>
+            {/* <a href="#" className="hover:text-blue-400"><FaTwitter /></a>
+            <a href="#" className="hover:text-blue-600"><FaLinkedinIn /></a> */}
+            <a href="#" className="hover:bg-[var(--primary)] text-white"><FaInstagram /></a>
           </div>
         </div>
       </div>

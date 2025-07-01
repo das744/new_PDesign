@@ -4,22 +4,22 @@ import Image from 'next/image';
 
 const slides = [
   {
-    image: '/img5.png',
-    smallImage: '/small1.png',
+    image: '/img5.webp',
+    smallImage: '/small1.webp',
     heading: 'Innovative Solutions',
     text: 'We bring your ideas to life with cutting-edge technology and design.',
     button: 'Discover More',
   },
   {
-    image: '/img8.png',
-    smallImage: '/small4.png',
+    image: '/img8.webp',
+    smallImage: '/small4.webp',
     heading: 'Creative Strategies',
     text: 'Tailored strategies that drive results and boost your brand visibility.',
     button: 'View Services',
   },
   {
-    image: '/proj1.jpg',
-    smallImage: '/small3.png',
+    image: '/proj1.webp',
+    smallImage: '/small3.webp',
     heading: 'Smart Experiences',
     text: 'Creating intuitive digital experiences that engage and inspire.',
     button: 'Get Started',
@@ -45,7 +45,7 @@ const Features = () => {
   const slide = slides[current];
 
   return (
-    <section className="px-6 py-16 ">
+    <section className="px-6 py-16 " id="feature">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Left: Image */}
         <div className="w-full md:w-1/2 h-[500px] relative flex items-center justify-center">
@@ -66,7 +66,7 @@ const Features = () => {
 
   {/* Main big image */}
   <div
-    className={`w-[90%] h-[90%] transition-all duration-700 ease-in-out ${
+    className= {`w-[90%] h-[90%] transition-all duration-700 ease-in-out ${
       animate ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-5'
     }`}
     style={{ marginLeft: '20px' }}
@@ -91,6 +91,8 @@ const Features = () => {
             className={`text-4xl font-bold uppercase text-gray-900 transition-all duration-700 ${
               animate ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
             }`}
+          heading-primary
+          
           >
             {slide.heading}
           </h2>
@@ -110,7 +112,9 @@ const Features = () => {
               animate ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
             }`}
           >
+              <a href="#contact" title="contact">
             {slide.button}
+            </a>
           </button>
         </div>
       </div>

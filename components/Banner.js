@@ -22,28 +22,28 @@ const Banner = () => {
 
 
         <h1
-          className={`text-4xl font-bold transition-all duration-700 ${animate ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'
+          className={`text-4xl font-bold transition-all duration-700  ${animate ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'
             }`}
         >
-          Welcome to{' '}
+         Affordable{' '}
           <span
-            className="text-transparent bg-clip-text px-2"
+            className=" italic text-transparent bg-clip-text px-2"
             style={{
               backgroundImage: 'linear-gradient(to right, var(--primary), var(--secondary))',
             }}
           >
 
-            PrimeDesign
+          Website Designer
           </span>
-          for your online existence for
+         in Melbourne for your 
 
           <span
-            className="text-transparent bg-clip-text px-2"
+            className="italic text-transparent bg-clip-text px-2"
             style={{
               backgroundImage: 'linear-gradient(to right, var(--primary), var(--secondary))',
             }}
           >
-            your business
+          business. 
           </span>
         </h1>
 
@@ -52,7 +52,7 @@ const Banner = () => {
           className={`text-lg text-gray-600 transition-all duration-700 delay-150 ${animate ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'
             }`}
         >
-          This is your supporting text explaining the main point of the banner.
+         Helping small and medium Aussie businesses grow with responsive, SEO-optimised websites. From WordPress development to custom web solutions, PrimeDesign builds websites that convert visitors into customers.
         </p>
 
         {/* Animated Button */}
@@ -60,7 +60,8 @@ const Banner = () => {
           className={`btn-primary px-6 py-3 rounded ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
             }`}
         >
-          Call to Action
+           <a href="#contact" title="contact"> Contact US </a>
+
         </button>
         <div className="flex items-center gap-4 py-5">
           <a href="#" title="WordPress">
@@ -91,7 +92,7 @@ const Banner = () => {
         <div className="flex items-end space-x-4">
           {/* Image 1 - From Bottom */}
           <Image
-            src="/img1.png"
+            src="/img1.webp"
             alt="Small"
             width={100}
             height={150}
@@ -101,7 +102,7 @@ const Banner = () => {
 
           {/* Image 2 - From Right */}
           <Image
-            src="/small-image.jpg"
+            src="/small-image.webp"
             alt="Tall Rectangle"
             width={300}
             height={400}
@@ -114,7 +115,7 @@ const Banner = () => {
         <div className="flex items-center space-x-4">
           {/* Image 3 - From Left */}
           <Image
-            src="/img4.jpg"
+            src="/img4.webp"
             alt="Right Side Tall"
             width={200}
             height={400}
@@ -124,7 +125,7 @@ const Banner = () => {
 
           {/* Image 4 - From Top */}
           <Image
-            src="/img9.png"
+            src="/img9.webp"
             alt="Right Side Tall"
             width={200}
             height={400}
